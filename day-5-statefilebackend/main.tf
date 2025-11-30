@@ -8,3 +8,7 @@ resource "aws_instance" "day_5" {
     Name = "day-6"
   }
 }
+resource "aws_vpc" "name" {
+    cidr_block = "10.0.0.0/16"
+  
+}
